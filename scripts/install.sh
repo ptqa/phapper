@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 libdir="$(echo $(cd $(dirname $0)/..; pwd)/lib)"
-srcpath="http://cnpmjs.org/downloads"
+srcpath="https://npm.taobao.org/mirrors/phantomjs/"
 if test "$npm_config_phantomjs_version"; then
   version="$npm_config_phantomjs_version"
 else
