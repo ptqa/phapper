@@ -41,7 +41,7 @@ fi
 
 # dowload how? || fail
 if which curl > /dev/null; then
-  dldr="curl -sLO"
+  dldr="curl -LO"
 else
   echo "I need curl to download PhantomJS."
   exit 1
