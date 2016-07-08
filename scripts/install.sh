@@ -53,7 +53,7 @@ if uname -a | grep Darwin 2>&1> /dev/null; then
   phdist="macosx"
   phpkg="phantomjs-$version-$phdist.zip"
 elif uname -a | grep -i linux 2>&1>/dev/null; then
-  decomp="tar -jxf"
+  decomp="tar -vjxf"
   if uname -a | grep x86_64 2>&1> /dev/null; then
     phdist="linux-x86_64"
     phpkg="phantomjs-$version-$phdist.tar.bz2"
